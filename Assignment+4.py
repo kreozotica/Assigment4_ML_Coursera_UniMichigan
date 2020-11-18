@@ -165,8 +165,8 @@ def blight_model():
     from sklearn.metrics import roc_auc_score
 
 
-    train = pd.read_csv('/Users/kreozotica/PycharmProjects/current/ML_Coursera/train.csv', encoding = 'ISO-8859-1')
-    test = pd.read_csv('/Users/kreozotica/PycharmProjects/current/ML_Coursera/test.csv')
+    train = pd.read_csv('train.csv', encoding = 'ISO-8859-1')
+    test = pd.read_csv('test.csv')
 
 
 
